@@ -1,16 +1,20 @@
 <template>
   <!-- <h1 class="text-3xl text-red-900">Hallo World</h1> -->
-  <Header/>
-  <Leistungen/>
-  <Portfolio/>
+  <!-- <NavBar/> -->
+  <Header />
+  <Leistungen />
+  <Portfolio />
+  <Footer />
 </template>
 
 <script>
+import NavBar from "./components/NavBar.vue";
 import Header from "./components/Header.vue";
-import Leistungen from './components/Leistungen.vue'
-import Portfolio from './components/Portfolio.vue'
+import Leistungen from "./components/Leistungen.vue";
+import Portfolio from "./components/Portfolio.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: "App",
-  components: { Header, Leistungen, Portfolio }
+  components: { NavBar, Header, Leistungen, Portfolio, Footer }
 };
 </script>
