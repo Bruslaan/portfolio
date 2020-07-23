@@ -1,14 +1,14 @@
 <template>
   <div>
     <div
-      class="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8 xl:mt-28 flex flex-wrap justify-center items-center h-screen"
+      class="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8 xl:mt-28 flex flex-wrap-reverse justify-center items-center h-screen"
     >
       <div class="text-center md:text-right md:w-1/2">
         <h2
           class="text-4xl tracking-tight leading-10 font-hairline hairline text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
         >Ruslan Noschajew</h2>
 
-        <span class="text-yellow-800 font-hairline hairline text-2xl">Software Developer</span>
+        <span class="text-yellow-800 font-hairline  text-2xl">Software Developer</span>
         <p
           class="text-xl text-gray-700 mt-10"
         >Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
@@ -28,11 +28,14 @@
         </div>
       </div>
 
-      <div class="md:w-1/2 mt-10 flex justify-center">
+      <div class="md:w-1/2 mt-10 flex justify-center ">
         <img
-          class="object-cover rounded-full h-64 w-64"
-          src="https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80"
+          class="object-cover rounded-full h-64 w-64 border border-yellow-800 p-3"
+          src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
         />
+
+<!-- https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80 -->
+        <!-- https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80 -->
        
       </div>
        <!-- <SpeechBuble/> -->
@@ -49,5 +52,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
+
+
 </style>

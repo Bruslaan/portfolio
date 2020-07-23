@@ -14,106 +14,21 @@
       </div>
 
       <div class="mt-24">
-        <ul class="grid md:grid-cols-3 md:col-gap-8 md:row-gap-10 col-gap-8 row-gap-10">
-          <li>
-            <div class="flex bg-white p-3 rounded-md items-center hover:shadow-md">
-              <div class>
+        <ul class="grid md:grid-cols-3 md:col-gap-8 md:row-gap-10 col-gap-4 row-gap-4">
+          <li v-for="(service,index) in services" :key="index">
+            <div class="flex flex-col p-3 rounded-md hover:shadow-md bg-gray-600 h-64">
+              <img class="rounded-full bg-white w-10 h-10 ml-4 my-3 object-contain" src="../assets/mockupApp.png">
                 <!-- <div
                   class="flex items-center justify-center h-64 w-64 rounded-md  text-white"
                 >
                   <img src="../assets/mockupApp.png" alt />
                 </div>-->
-              </div>
+              </img>
               <div class="ml-4">
-                <h4 class="text-2xl leading-6 font-medium text-gray-900">App Development</h4>
+                <h4 class="text-2xl leading-6 font-medium text-white">{{service}}</h4>
                 <p
-                  class="mt-2 text-base leading-6 text-gray-500"
-                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="flex bg-white p-3 rounded-md items-center hover:shadow-md">
-              <div class>
-                <!-- <div
-                  class="flex items-center justify-center h-64 w-64 rounded-md  text-white"
-                >
-                  <img src="../assets/mockupApp.png" alt />
-                </div>-->
-              </div>
-              <div class="ml-4">
-                <h4 class="text-2xl leading-6 font-medium text-gray-900">Web Development</h4>
-                <p
-                  class="mt-2 text-base leading-6 text-gray-500"
-                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="flex bg-white p-3 rounded-md items-center hover:shadow-md">
-              <div class>
-                <!-- <div
-                  class="flex items-center justify-center h-64 w-64 rounded-md  text-white"
-                >
-                  <img src="../assets/mockupApp.png" alt />
-                </div>-->
-              </div>
-              <div class="ml-4">
-                <h4 class="text-2xl leading-6 font-medium text-gray-900">Game Development</h4>
-                <p
-                  class="mt-2 text-base leading-6 text-gray-500"
-                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="flex bg-white p-3 rounded-md items-center hover:shadow-md">
-              <div class>
-                <!-- <div
-                  class="flex items-center justify-center h-64 w-64 rounded-md  text-white"
-                >
-                  <img src="../assets/mockupApp.png" alt />
-                </div>-->
-              </div>
-              <div class="ml-4">
-                <h4 class="text-2xl leading-6 font-medium text-gray-900">Desktop applications</h4>
-                <p
-                  class="mt-2 text-base leading-6 text-gray-500"
-                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="flex bg-white p-3 rounded-md items-center hover:shadow-md">
-              <div class>
-                <!-- <div
-                  class="flex items-center justify-center h-64 w-64 rounded-md  text-white"
-                >
-                  <img src="../assets/mockupApp.png" alt />
-                </div>-->
-              </div>
-              <div class="ml-4">
-                <h4 class="text-2xl leading-6 font-medium text-gray-900">Backend Development</h4>
-                <p
-                  class="mt-2 text-base leading-6 text-gray-500"
-                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="flex bg-white p-3 rounded-md items-center hover:shadow-md">
-              <div class>
-                <!-- <div
-                  class="flex items-center justify-center h-64 w-64 rounded-md  text-white"
-                >
-                  <img src="../assets/mockupApp.png" alt />
-                </div>-->
-              </div>
-              <div class="ml-4">
-                <h4 class="text-2xl leading-6 font-medium text-gray-900">Desktop applications</h4>
-                <p
-                  class="mt-2 text-base leading-6 text-gray-500"
-                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+                  class="mt-2 text-base leading-6 text-white"
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. s suscipit</p>
               </div>
             </div>
           </li>
@@ -124,7 +39,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data(){
+    return{
+      services:["App Dev", "Web Dev", "Game Dev", "Backend Dev", "Desktop Apps","Cloud Apps"]
+    }
+  }
+};
 </script>
 
 <style>
