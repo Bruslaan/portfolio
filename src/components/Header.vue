@@ -13,7 +13,7 @@
           class="text-xl text-gray-700 mt-10"
         >I'm a software engineer based in Germany Munic, specializing in building and designing websites, applications, and everything in between.</p>
         <div class="mt-5 sm:mt-8 sm:flex justify-center md:justify-end">
-          <div class="rounded-md shadow">
+          <div class="rounded-md ">
             <a
               href="mailto:noschajew.ruslan@gmail.com"
               class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
@@ -22,7 +22,7 @@
           <div class="mt-3 sm:mt-0 sm:ml-3">
             <a
               href="#"
-              class="w-full flex items-center justify-center px-8 py-3 border border-yellow-600 text-base leading-6 font-medium rounded-md text-gray-700 hover:text-indigo-600 hover:bg-indigo-100 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+              class="w-full flex items-center justify-center px-8 py-3 border border-yellow-700 text-base leading-6 font-medium rounded-md text-yellow-700 hover:text-yellow-600 hover:border-yellow-600 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
             >Portfolio</a>
           </div>
         </div>
