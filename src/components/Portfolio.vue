@@ -13,7 +13,34 @@
         >Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>-->
       </div>
 
+      <div class="mt-20 flex  flex-wrap justify-center ">
+        <div class="md:w-1/2 w-full">
+          <img
+            src="../assets/mockupApp.png"
+            alt
+          />
+        </div>
+        <div class="md:w-1/2 w-full px-10 flex flex-col justify-between text-left mt-4 md:mt-0 ">
+          <div>
+            <h4 class="text-2xl leading-6 font-medium">Some Shit here</h4>
+            <p
+              class="mt-5"
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sunt, cum laboriosam quaerat reiciendis omnis alias ad est id neque nostrum animi iure beatae repudiandae voluptates voluptas reprehenderit. Voluptatem, voluptate!</p>
+          </div>
 
+          <div class="flex flex-col md:flex-row items-center justify-between">
+            <div class="flex mt-4 md:mt-0 w-full justify-start">
+              <button class="border px-3 py-2 md:w-32 w-full block bg-white ">Previous</button>
+              <button class="border px-3 py-2 md:w-32 w-full bg-white">Next</button>
+            </div>
+            <div class="flex items-center mt-4 md:mt-0">
+              <span class="bg-gray-500 w-4 h-4 rounded-full mx-2"></span>
+              <span class="bg-white border w-4 h-4 rounded-full mx-2"></span>
+              <span class="bg-white border w-4 h-4 rounded-full mx-2"></span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
