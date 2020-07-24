@@ -1,9 +1,9 @@
 <template>
   <!-- <h1 class="text-3xl text-red-900">Hallo World</h1> -->
   <NavBar/>
-  <Header id="header" />
+  <Header id="header" class="bg-gray-900" />
   <AboutMe id="aboutme" />
-  <Leistungen id="leistungen" />
+  <!-- <Leistungen id="leistungen" /> -->
   <Portfolio id="portfolio" />
   <Footer />
 </template>

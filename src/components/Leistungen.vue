@@ -6,7 +6,7 @@
           class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase"
         >Services</p>-->
         <h1
-          class="text-4xl tracking-tight leading-10 font-hairline hairline text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
+          class="text-4xl tracking-tight leading-10 font-hairline hairline text-gray-100 sm:text-5xl sm:leading-none md:text-6xl"
         >My Services</h1>
         <!-- <p
           class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto"

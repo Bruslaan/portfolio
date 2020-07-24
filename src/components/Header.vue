@@ -5,23 +5,23 @@
     >
       <div class="text-center md:text-right md:w-1/2">
         <h2
-          class="text-4xl tracking-tight leading-10 font-hairline hairline text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
+          class="text-4xl tracking-tight leading-10 font-hairline hairline text-white sm:text-5xl sm:leading-none md:text-6xl"
         >Ruslan Noschajew</h2>
 
-        <span class="text-yellow-800 font-hairline text-2xl">Software Developer</span>
+        <span class="text-yellow-700 font-hairline text-2xl">Software Developer</span>
         <p
-          class="text-xl text-gray-700 mt-10"
-        >I'm a software engineer based in Germany Munic, specializing in building and designing websites, applications, and everything in between.</p>
+          class="text-xl text-gray-600 mt-10"
+        >I'm a <span class="text-gray-100">software engineer</span> based in Germany Munic, specializing in building and <span class="text-gray-100">designing websites, applications</span>, and everything in between. <a class="hover:text-yellow-800 text-yellow-700" href="#aboutme">read more</a></p>
         <div class="mt-5 sm:mt-8 sm:flex justify-center md:justify-end">
           <div class="rounded-md ">
             <a
               href="mailto:noschajew.ruslan@gmail.com"
-              class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+              class="w-full flex items-center justify-center px-8 py-3 border text-base leading-6 font-medium rounded-md text-white bg-gray-900  border-white hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
             >Contact Me</a>
           </div>
           <div class="mt-3 sm:mt-0 sm:ml-3">
             <a
-              href="#"
+              href="#portfolio"
               class="w-full flex items-center justify-center px-8 py-3 border border-yellow-700 text-base leading-6 font-medium rounded-md text-yellow-700 hover:text-yellow-600 hover:border-yellow-600 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
             >Portfolio</a>
           </div>
@@ -30,7 +30,7 @@
 
       <div class="md:w-1/2 mt-10 flex justify-center items-center">
         <img
-          class="object-cover rounded-full h-64 w-64 border border-yellow-800 p-3"
+          class="object-cover rounded-full h-64 w-64 border border-yellow-700 p-3"
           src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
         />
 
@@ -54,4 +54,6 @@ export default {
 </script>
 
 <style scoped>
+
+
 </style>
