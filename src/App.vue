@@ -3,7 +3,7 @@
   <NavBar/>
   <Header id="header" class="bg-gray-900" />
   <AboutMe id="aboutme" />
-  <!-- <Leistungen id="leistungen" /> -->
+  <Leistungen id="leistungen" />
   <Portfolio id="portfolio" />
   <Footer />
 </template>
@@ -12,7 +12,7 @@
 import NavBar from "./components/NavBar.vue";
 import AboutMe from "./components/AboutMePage.vue";
 import Header from "./components/Header.vue";
-import Leistungen from "./components/Leistungen.vue";
+import Leistungen from "./components/Leistungen2.vue";
 import Portfolio from "./components/Portfolio.vue";
 import Footer from "./components/Footer.vue";
 export default {
