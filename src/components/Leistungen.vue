@@ -18,12 +18,7 @@
           <li v-for="(service,index) in services" :key="index">
             <div class="flex flex-col p-3 rounded-lg hover:shadow-md bg-gray-600 h-64">
               <img class="rounded-full bg-white w-10 h-10 ml-4 my-3 object-cover" src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">
-                <!-- <div
-                  class="flex items-center justify-center h-64 w-64 rounded-md  text-white"
-                >
-                  <img src="../assets/mockupApp.png" alt />
-                </div>-->
-              </img>
+       
               <div class="ml-4">
                 <h4 class="text-2xl leading-6 font-medium text-white">{{service}}</h4>
                 <p

@@ -27,7 +27,7 @@
         Vue
         Node.js
 
-                <!-- <ul class="">
+        <!-- <ul class="">
             <li>Go lang</li>
             <li>Kubernetes</li>
             <li>Unity 3D</li>
@@ -36,7 +36,7 @@
             <li>React</li>
             <li>Vue</li>
             <li>Node.js</li>
-        </ul>
+        </ul> -->
 
       </p>
     </div>
