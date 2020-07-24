@@ -1,19 +1,22 @@
 <template>
-  <div class="flex justify-center items-center h-32">
-      <ul class="flex">
-          <li>About Me</li>
-          <li>Services</li>
-          <li>Recent Projects</li>
-      </ul>
+  <div class="flex justify-center items-center bg-gray-200 w-full fixed py-4 border-b">
+    <ul class="flex">
+      <li class="mr-3">
+        <a href class="hover:text-orange-900 text-gray-700 border-b border-orange-800">About Me</a>
+      </li>
+      <li class="mr-3">
+        <a href class="hover:text-orange-900 text-gray-700">My Services</a>
+      </li>
+      <li class="mr-3">
+        <a href class="hover:text-orange-900 text-gray-700">Portfolio</a>
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>
