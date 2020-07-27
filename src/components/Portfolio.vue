@@ -13,20 +13,36 @@
         >Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>-->
       </div>
 
-      <div class="mt-20 flex flex-wrap justify-center items-center">
+      <div class="mt-20 flex flex-wrap justify-center">
         <div class="md:w-1/2 w-full">
-          <img src="../assets/mockupApp.png" class="w-full" />
+          <img src="../assets/Safeat.png" class="mx-auto transform border shadow-sm  hover:scale-105 transition ease-in duration-200" />
         </div>
-        <div class="md:w-1/2 w-full px-10 flex flex-col justify-between text-left mt-4 md:mt-0 ">
+        <div class="md:w-1/2 w-full px-10 flex flex-col justify-between text-left mt-4 md:mt-0">
           <div>
-            <h4 class="text-2xl leading-6 font-medium text-gray-900">Some Shit here</h4>
-            <p
-              class="mt-5 text-gray-600"
-            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sunt, cum laboriosam quaerat reiciendis omnis alias ad est id neque nostrum animi iure beatae repudiandae voluptates voluptas reprehenderit. Voluptatem, voluptate!</p>
+            <h4 class="text-2xl leading-6 font-medium text-gray-900">Saf'Eat Progressiv Web App</h4>
+            <div class="">
+              <p
+                class="mt-5 text-gray-600"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quam error dolor optio provident, officia ducimus quo repellendus aliquam laboriosam ratione blanditiis aspernatur vero facere. Nemo quo voluptates cupiditate neque!</p>
+              <div class="mt-10">
+                <h1>
+                  Frontend:
+                  <span class="text-gray-700">Vue Js · Tailwind CSS</span>
+                </h1>
+                <h1>
+                  Backend:
+                  <span class="text-gray-700">Node Js · Strapi · Mongo DB</span>
+                </h1>
+                <h1>
+                  Payment:
+                  <span class="text-gray-700">Strapi · PayPal Api</span>
+                </h1>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="flex items-center mt-4 md:mt-0 justify-center">
+      <div class="flex items-center mt-5 md:mt-0 justify-center">
         <span class="bg-orange-500 border border-gray-200 w-4 h-4 rounded-full mx-2"></span>
         <span class="bg-white border w-4 h-4 rounded-full mx-2"></span>
         <span class="bg-white border w-4 h-4 rounded-full mx-2"></span>

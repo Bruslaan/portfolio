@@ -45,12 +45,13 @@
             <img
               src="../assets/arrowDown.svg"
               alt
-              class="h-2 ml-3"
-              :class="service.show?'transform rotate-180':''"
+              class="h-2 ml-3 transition ease-in duration-300"
+              :class="{'transform rotate-180': service.show}"
             />
           </a>
-
-          <p v-if="service.show" class="text-gray-900 my-3">{{service.dropDown}}</p>
+          <transition name="slide-fade">
+            <p v-if="service.show" class="text-gray-900 my-3">{{service.dropDown}}</p>
+          </transition>
         </div>
       </div>
     </div>
@@ -102,4 +103,21 @@ export default {
 </script>
 
 <style>
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.3s ease-in;
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+.acordionContent {
+  transition: all 200ms linear;
+}
 </style>

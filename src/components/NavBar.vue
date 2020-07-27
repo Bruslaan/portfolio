@@ -4,7 +4,7 @@
       <li class="mr-3">
         <a
           href="#aboutme"
-          class="hover:text-yellow-700 text-gray-700 activeNav border-b border-yellow-700"
+          class="hover:text-yellow-700 text-gray-700"
         >About Me</a>
       </li>
       <li class="mr-3">
