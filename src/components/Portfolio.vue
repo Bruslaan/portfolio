@@ -13,9 +13,9 @@
         >Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>-->
       </div>
 
-      <div class="mt-20 flex flex-wrap justify-center">
+      <div class="mt-20 flex flex-wrap justify-center items-center">
         <div class="md:w-1/2 w-full">
-          <img src="../assets/mockupApp.png" alt />
+          <img src="../assets/mockupApp.png" class="w-full" />
         </div>
         <div class="md:w-1/2 w-full px-10 flex flex-col justify-between text-left mt-4 md:mt-0 ">
           <div>

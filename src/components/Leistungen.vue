@@ -1,33 +1,53 @@
 <template>
-  <div class="py-12">
-    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center">
-        <!-- <p
-          class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase"
-        >Services</p>-->
-        <h1
-          class="text-4xl tracking-tight leading-10 font-hairline hairline text-gray-100 sm:text-5xl sm:leading-none md:text-6xl"
-        >My Services</h1>
-        <!-- <p
-          class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto"
-        >Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>-->
+  <div class="mx-auto max-w-4xl mt-20">
+    <div class="flex flex-wrap justify-center mb-10">
+      <div class="md:w-1/3 w-full px-10">
+        <h1 class="text-white text-3xl">About Me</h1>
       </div>
+      <div class="md:w-2/3 w-full px-10">
+        <p class="text-gray-600 text-xl border-b border-gray-700 pb-4">
+          Hello! I'm Ruslan, a
+          <span class="text-gray-100">software engineer</span>
+          based in Germany Munic.
+          <br />
+          <br />I enjoy
+          <span class="text-gray-100">creating software</span>, whether that be
+          <span class="text-gray-100">websites, applications</span>, or even
+          <span class="text-gray-100">games</span>. My goal is to always build products that provide
+          <span
+            class="text-gray-100"
+          >responsiv and performant</span> experiences.
+          Shortly after receiving my
+          <span class="text-gray-100">master's degree from Technische University in Munic</span>, I joined the cloud engineering team at Rohde & Schwarz where I worked on their cloud infrastructure.
+        </p>
+      </div>
+    </div>
 
-      <div class="mt-24">
-        <ul class="grid md:grid-cols-3 md:col-gap-8 md:row-gap-10 col-gap-4 row-gap-4">
-          <li v-for="(service,index) in services" :key="index">
-            <div class="flex flex-col p-3 rounded-lg hover:shadow-md bg-gray-600 h-64">
-              <img class="rounded-full bg-white w-10 h-10 ml-4 my-3 object-cover" src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">
-       
-              <div class="ml-4">
-                <h4 class="text-2xl leading-6 font-medium text-white">{{service}}</h4>
-                <p
-                  class="mt-2 text-base leading-6 text-white"
-                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. s suscipit</p>
-              </div>
-            </div>
-          </li>
-        </ul>
+    <div class="flex flex-wrap justify-center">
+      <div class="md:w-1/3 w-full px-10 mb-5 md:mb-0">
+        <h1 class="text-white text-3xl">My Services</h1>
+      </div>
+      <div class="md:w-2/3 w-full px-10">
+        <div
+          class="border-b border-gray-700 pb-4 mb-4"
+          v-for="service in services"
+          :key="service.name"
+        >
+          <a
+            class="flex items-center cursor-pointer select-none"
+            @click="service.show=!service.show"
+          >
+            <h1 class="text-white text-2xl">{{service.name}}</h1>
+            <img
+              src="../assets/arrowDown.svg"
+              alt
+              class="h-3 ml-3"
+              :class="service.show?'transform rotate-180':''"
+            />
+          </a>
+
+          <p v-if="service.show" class="text-gray-100 my-3">{{service.dropDown}}</p>
+        </div>
       </div>
     </div>
   </div>
@@ -35,10 +55,44 @@
 
 <script>
 export default {
-  data(){
-    return{
-      services:["App Dev", "Web Dev", "Game Dev", "Backend Dev", "Desktop Apps","Cloud Apps"]
+  methods: {
+    callIT() {
+      console.log("hallo world");
+      this.show = !this.show;
     }
+  },
+  data() {
+    return {
+      services: [
+        {
+          name: "Web Dev",
+          show: false,
+          dropDown:
+            "JavaScript · VueJs · React ·  NodeJs · Express · Flutter  · Tailwind · Linux · Docker · GIT · Strapi"
+        },
+        {
+          name: "Mobile Application",
+          show: false,
+          dropDown: "Swift · Flutter"
+        },
+        {
+          name: "Cloud Dev",
+          show: false,
+          dropDown:
+            "Kubernetes · OpenShift · Linux · Terraform · GO Lang · Kubernetes Operator"
+        },
+        {
+          name: "Game Dev",
+          show: false,
+          dropDown: "Unity 3D · Blender"
+        },
+        {
+          name: "UX Design",
+          show: false,
+          dropDown: "Adobe XD · Sketch"
+        }
+      ]
+    };
   }
 };
 </script>

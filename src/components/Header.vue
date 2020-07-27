@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8  flex flex-wrap-reverse justify-center items-center h-screen"
+      class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8  flex flex-wrap-reverse justify-center items-center screen"
     >
       <div class="text-center md:text-right md:w-1/2">
         <h2
@@ -11,7 +11,7 @@
         <span class="text-yellow-700 font-hairline text-2xl">Software Developer</span>
         <p
           class="text-xl text-gray-600 mt-10"
-        >I'm a <span class="text-gray-100">software engineer</span> based in Germany Munic, specializing in building and <span class="text-gray-100">designing websites, applications</span>, and everything in between. <a class="hover:text-yellow-800 text-yellow-700" href="#aboutme">read more</a></p>
+        >I'm a <span class="text-gray-100">software engineer</span> based in Germany Munic, specializing in building and <span class="text-gray-100">designing websites, applications</span>, and everything in between. <a class="hover:text-yellow-800 text-yellow-700" href="#leistungen">read more</a></p>
         <div class="mt-5 sm:mt-8 sm:flex justify-center md:justify-end">
           <div class="rounded-md ">
             <a
@@ -54,6 +54,8 @@ export default {
 </script>
 
 <style scoped>
-
+.screen{
+  height: 50rem;
+}
 
 </style>

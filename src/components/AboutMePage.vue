@@ -18,14 +18,7 @@
         <br><br>
         Here are a few technologies I've been working with recently:
         <br><br>
-        Go lang
-        Kubernetes
-        Unity 3D
-        JavaScript (ES6+)
-        HTML & (S)CSS
-        React
-        Vue
-        Node.js
+
 
         <!-- <ul class="">
             <li>Go lang</li>
