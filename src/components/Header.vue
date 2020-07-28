@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8  flex flex-wrap-reverse justify-center items-center screen border-b"
+      class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex flex-wrap-reverse justify-center items-center screen border-b"
     >
       <div class="text-center md:text-right md:w-1/2">
         <h2
@@ -9,21 +9,25 @@
         >Ruslan Noschajew</h2>
 
         <span class="text-gray-600 font-hairline text-2xl">Software Developer</span>
-        <p
-          class="text-xl text-gray-600 mt-10"
-        >I'm a <span class="text-gray-600">software engineer</span> based in Germany Munic, specializing in building and <span class="text-gray-600">designing websites, applications</span>, and everything in between. <a class="hover:text-yellow-800 text-gray-600" href="#leistungen">read more</a></p>
+        <p class="text-xl text-gray-600 mt-10">
+          I'm a
+          <span class="text-gray-600">software engineer</span> based in Germany Munich, specializing in building and
+          <span class="text-gray-600">designing websites, applications</span>, and everything in between.
+          <a class="hover:text-yellow-800 text-yellow-700" href="#leistungen">read more</a>
+        </p>
         <div class="mt-5 sm:mt-8 sm:flex justify-center md:justify-end">
-          <div class="rounded-md ">
+          <div class="rounded-md">
             <a
               href="mailto:noschajew.ruslan@gmail.com"
-              class="w-full flex items-center justify-center px-8 py-3 border text-base leading-6 font-medium rounded-md text-white bg-gray-900  border-white hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+              class="w-full flex items-center justify-center px-8 py-3 border text-base leading-6 font-medium rounded-md text-white bg-gray-900 border-white hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
             >Contact Me</a>
           </div>
           <div class="mt-3 sm:mt-0 sm:ml-3">
             <a
-              href="#portfolio"
-              class="w-full flex items-center justify-center px-8 py-3 border border-yellow-600 text-base leading-6 font-medium rounded-md text-gray-600  hover:border-yellow-600 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
-            >Portfolio</a>
+              href="CV.pdf"
+              class="focus:outline-none w-full flex items-center justify-center px-8 py-3 border border-yellow-600 text-base leading-6 font-medium rounded-md text-gray-600 hover:border-yellow-700 focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+              download="CVRuslanNoschajew.pdf"
+            >Download Resume</a>
           </div>
         </div>
       </div>
@@ -55,12 +59,11 @@ export default {
 </script>
 
 <style scoped>
-.screen{
+.screen {
   height: 50rem;
 }
-.profileImageSize{
+.profileImageSize {
   height: 18rem;
   width: 18rem;
 }
-
 </style>

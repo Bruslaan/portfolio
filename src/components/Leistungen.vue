@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto max-w-4xl mt-20">
+  <div class="mx-auto max-w-4xl mt-20" >
     <div class="flex flex-wrap justify-center mb-10">
       <div class="md:w-1/3 w-full px-10">
         <h1 class="text-gray-900 text-3xl">About Me</h1>
@@ -9,7 +9,6 @@
           Hello! I'm Ruslan, a
           <span class="text-gray-600">software engineer</span>
           based in Germany Munic.
-          <br />
           <br />I enjoy
           <span class="text-gray-600">creating software</span>, whether that be
           <span class="text-gray-600">websites, applications</span>, or even
@@ -17,14 +16,17 @@
           <span
             class="text-gray-600"
           >responsiv and performant</span> experiences.
+          <br/>
           Shortly after receiving my
           <span
             class="text-gray-600"
-          >master's degree from Technische University in Munic</span>
-          , I joined the cloud engineering team at Rohde & Schwarz where I worked on their cloud infrastructure for about 2 years.
+          >master's degree from Technische University in Munich</span>
+          , I joined the cloud engineering team at Rohde & Schwarz where I worked on their cloud infrastructure for about 2 years. 
+          <br/>
+          <br/>
           <span>
-            <a href="CV.pdf" class="text-yellow-600" download="CV.pdf">
-              <button>Download CV</button>
+            <a href="CV.pdf" class="text-yellow-600 hover:text-yellow-700 " download="CVRuslanNoschajew.pdf">
+              <button>Download CV here</button>
             </a>
           </span>
         </p>

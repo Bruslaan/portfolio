@@ -5,13 +5,16 @@
         <a
           href="#aboutme"
           class="hover:text-yellow-700 text-gray-700"
-        >About Me</a>
+        >Github</a>
       </li>
       <li class="mr-3">
-        <a href="#leistungen" class="hover:text-yellow-700 text-gray-700">My Services</a>
+        <a href="#leistungen" class="hover:text-yellow-700 text-gray-700">Facebook</a>
       </li>
       <li class="mr-3">
-        <a href="#portfolio" class="hover:text-yellow-700 text-gray-700">Portfolio</a>
+        <a href="#portfolio" class="hover:text-yellow-700 text-gray-700">Linked In</a>
+      </li>
+            <li class="mr-3">
+        <a href="#portfolio" class="hover:text-yellow-700 text-gray-700 px-3 rounded border">Download Resume</a>
       </li>
     </ul>
   </div>
