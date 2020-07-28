@@ -58,7 +58,7 @@
         </div>
       </div>
 
-      <div class="flex border-b my-10"></div>
+      <div class="flex border-b my-10 w-full"></div>
       <!-- Paarfit -->
       <div class="mt-20 flex flex-wrap justify-center">
         <div class="md:w-1/2 w-full px-10 flex flex-col justify-between text-left mt-4 md:mt-0">
@@ -67,7 +67,7 @@
             <div class>
               <p
                 class="mt-5 text-xl text-gray-600"
-              >Im the CEO of Safeat UG. Safeat is a progressive web app that digitizes the traditional ordering and payment process in restarants.</p>
+              >Paarfit finally brings fitness for couples into the living room.</p>
               <br />
               <p class="mt-5 text-xl text-gray-600">Created: 10.03.2020</p>
               <br />
@@ -80,7 +80,11 @@
               <div class="mt-10">
                 <h1>
                   Frontend:
-                  <span class="text-gray-700">Vue Js · Tailwind CSS · Flutter</span>
+                  <span class="text-gray-700">Vue Js · Tailwind CSS</span>
+                </h1>
+                                <h1>
+                  App:
+                  <span class="text-gray-700">Flutter</span>
                 </h1>
                 <h1>
                   Backend:
