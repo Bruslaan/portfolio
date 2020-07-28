@@ -30,9 +30,9 @@
 
       <div class="md:w-1/2 mt-10 flex justify-center items-center">
         <img
-          class="object-cover rounded-full h-64 w-64 border border-yellow-700 p-3 object-center"
-          alt="../assets/Profile.jpg"
-          src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+          class="object-cover rounded-full profileImageSize border border-yellow-700 p-3 transform transition hover:scale-125 duration-200 ease-in"
+          src="../assets/Profiledrawn.jpeg"
+          alt="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
         />
 
         <!-- https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80 -->
@@ -57,6 +57,10 @@ export default {
 <style scoped>
 .screen{
   height: 50rem;
+}
+.profileImageSize{
+  height: 18rem;
+  width: 18rem;
 }
 
 </style>

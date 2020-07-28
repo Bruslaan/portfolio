@@ -23,7 +23,7 @@
           >master's degree from Technische University in Munic</span>
           , I joined the cloud engineering team at Rohde & Schwarz where I worked on their cloud infrastructure for about 2 years.
           <span>
-            <a href="../assets/CV.pdf" class="text-yellow-600" download="CV.pdf">
+            <a href="CV.pdf" class="text-yellow-600" download="CV.pdf">
               <button>Download CV</button>
             </a>
           </span>
@@ -73,7 +73,7 @@ export default {
           name: "Web Dev",
           show: false,
           dropDown:
-            "JavaScript · VueJs · React ·  NodeJs · Express · Flutter  · Tailwind · Linux · Docker · GIT · Strapi"
+            "JavaScript · VueJs · React ·  NodeJs · Express · Flutter  · Tailwind · Linux · Docker · GIT · Strapi · Python"
         },
         {
           name: "Mobile Application",
@@ -89,7 +89,7 @@ export default {
         {
           name: "Game Dev",
           show: false,
-          dropDown: "Unity 3D · Blender"
+          dropDown: "Unity 3D · C# · Blender"
         },
         {
           name: "UX Design",

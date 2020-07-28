@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center bg-gray-100 w-full fixed py-4 border-b">
+  <div class="flex justify-center items-center bg-gray-100 w-full fixed py-4 border-b z-50">
     <ul class="flex">
       <li class="mr-3">
         <a

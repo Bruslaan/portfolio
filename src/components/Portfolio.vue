@@ -15,15 +15,26 @@
 
       <div class="mt-20 flex flex-wrap justify-center">
         <div class="md:w-1/2 w-full">
-          <img src="../assets/Safeat.png" class="mx-auto transform border shadow-sm  hover:scale-105 transition ease-in duration-200" />
+          <img
+            src="../assets/Safeat.png"
+            class="mx-auto border shadow-sm transform hover:scale-105 transition ease-in duration-200"
+          />
         </div>
         <div class="md:w-1/2 w-full px-10 flex flex-col justify-between text-left mt-4 md:mt-0">
           <div>
             <h4 class="text-2xl leading-6 font-medium text-gray-900">Saf'Eat Progressiv Web App</h4>
-            <div class="">
+            <div class>
               <p
                 class="mt-5 text-gray-600"
               >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quam error dolor optio provident, officia ducimus quo repellendus aliquam laboriosam ratione blanditiis aspernatur vero facere. Nemo quo voluptates cupiditate neque!</p>
+              <br />
+
+              <a
+                href="https://www.safeat.de"
+                class="hover:text-yellow-700"
+                target="_blank"
+              >www.safeat.de</a>
+
               <div class="mt-10">
                 <h1>
                   Frontend:
@@ -31,7 +42,7 @@
                 </h1>
                 <h1>
                   Backend:
-                  <span class="text-gray-700">Node Js · Strapi · Mongo DB</span>
+                  <span class="text-gray-700">Node Js · Strapi · Mongo DB · Socket IO </span>
                 </h1>
                 <h1>
                   Payment:
