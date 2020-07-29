@@ -1,6 +1,6 @@
 <template>
   <div class="py-12 mt-10">
-    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 bg-gray-400">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <!-- <p
           class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase"
