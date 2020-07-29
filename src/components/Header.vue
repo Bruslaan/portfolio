@@ -11,7 +11,7 @@
         <span class="text-gray-600 font-hairline text-2xl">Software Developer</span>
         <p class="text-xl text-gray-600 mt-10">
           I'm a
-          <span class="text-gray-600">software engineer</span> based in Germany Munich, specializing in building and
+          <span class="text-gray-600">software engineer</span> based in Germany Munich, specialised in building and
           <span class="text-gray-600">designing websites, applications</span>, and everything in between.
           <a class="hover:text-yellow-800 text-yellow-700" href="#leistungen">read more</a>
         </p>

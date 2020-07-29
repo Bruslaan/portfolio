@@ -8,20 +8,19 @@
         <p class="text-gray-600 text-xl border-b pb-4">
           Hello! I'm Ruslan, a
           <span class="text-gray-600">software engineer</span>
-          based in Germany Munic.
+          based in Germany Munich.
           <br />I enjoy
           <span class="text-gray-600">creating software</span>, whether that be
           <span class="text-gray-600">websites, applications</span>, or even
-          <span class="text-gray-600">games</span>. My goal is to always build products that provide
+          <span class="text-gray-600">games</span>. My goal is always to build products that provide
           <span
             class="text-gray-600"
-          >responsiv and performant</span> experiences.
+          >responsive and performant</span> experiences.
           <br/>
           Shortly after receiving my
           <span
             class="text-gray-600"
-          >master's degree from Technische University in Munich</span>
-          , I joined the cloud engineering team at Rohde & Schwarz where I worked on their cloud infrastructure for about 2 years. 
+          >master's degree from the Technical University of Munich</span>, I joined the cloud engineering team at Rohde & Schwarz where I worked on their cloud infrastructure for about 2 years. 
           <br/>
           <br/>
           <span>

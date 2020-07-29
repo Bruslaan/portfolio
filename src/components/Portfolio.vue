@@ -25,11 +25,14 @@
         </div>
         <div class="md:w-1/2 w-full px-10 flex flex-col justify-between text-left mt-4 md:mt-0">
           <div>
-            <h4 class="text-2xl leading-6 font-medium text-gray-900">Saf'Eat Progressiv Web App</h4>
+            <h4 class="text-2xl leading-6 font-medium text-gray-900">Saf'Eat Progressive Web App</h4>
             <div class>
-              <p
-                class="mt-5 text-xl text-gray-600"
-              >Im the CEO of Safeat UG. Safeat is a progressive web app that digitizes the traditional ordering and payment process in restarants.</p>
+              <p class="mt-5 text-xl text-gray-600">
+                I'm the CEO of SafEat UG. Safeat is a progressive web app that digitizes the traditional ordering and payment process in restarants.
+                <br />In this project I am responsible for the Front end and Back end programming.
+                The aim was to create a native app like feel without having to download it from the app store. Therefore the whole projekt was realized as a progressive web app in Vue Js.
+              </p>
+
               <br />
               <p class="mt-5 text-xl text-gray-600">Created: 20.07.2020</p>
               <br />
@@ -63,11 +66,17 @@
       <div class="mt-20 flex flex-wrap justify-center">
         <div class="md:w-1/2 w-full px-10 flex flex-col justify-between text-left mt-4 md:mt-0">
           <div>
-            <h4 class="text-2xl leading-6 font-medium text-gray-900">Paarfit Progressiv Web App & IOS App</h4>
+            <h4
+              class="text-2xl leading-6 font-medium text-gray-900"
+            >Paarfit Progressive Web App & IOS App</h4>
             <div class>
-              <p
-                class="mt-5 text-xl text-gray-600"
-              >Paarfit finally brings fitness for couples into the living room.</p>
+              <p class="mt-5 text-xl text-gray-600">
+                Paarfit finally brings fitness for couples into the living room.
+                <br />
+                <br />In this project I am responsible for the Front end and Back end programming.
+              </p>
+              <br />
+
               <br />
               <p class="mt-5 text-xl text-gray-600">Created: 10.03.2020</p>
               <br />
@@ -75,14 +84,14 @@
                 href="https://www.safeat.de"
                 class="hover:text-yellow-700 text-xl"
                 target="_blank"
-              >www.safeat.de</a> -->
+              >www.safeat.de</a>-->
 
               <div class="mt-10">
                 <h1>
                   Frontend:
                   <span class="text-gray-700">Vue Js · Tailwind CSS</span>
                 </h1>
-                                <h1>
+                <h1>
                   App:
                   <span class="text-gray-700">Flutter</span>
                 </h1>
@@ -99,7 +108,7 @@
           </div>
         </div>
         <div class="md:w-1/2 md:mt-0 mt-10 w-full">
-          <a >
+          <a>
             <img
               alt="paarfit.de"
               src="../assets/PaarfitMockup.png"
@@ -108,8 +117,6 @@
           </a>
         </div>
       </div>
-
-
 
       <!-- <div class="flex items-center mt-5 md:mt-0 justify-center">
         <span class="bg-orange-500 border border-gray-200 w-4 h-4 rounded-full mx-2"></span>
