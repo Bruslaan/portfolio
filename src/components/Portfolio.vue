@@ -13,8 +13,8 @@
         >Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>-->
       </div>
 
-      <div class="mt-20 flex flex-wrap justify-center">
-        <div class="md:w-1/2 w-full">
+      <div class="mt-20 flex flex-wrap-reverse justify-center">
+        <div class="md:w-1/2 mt-10 md:mt-0 w-full">
           <a href="https://www.safeat.de" target="_blank">
             <img
               alt="safeat.de"
@@ -98,7 +98,7 @@
             </div>
           </div>
         </div>
-        <div class="md:w-1/2 w-full">
+        <div class="md:w-1/2 md:mt-0 mt-10 w-full">
           <a >
             <img
               alt="paarfit.de"
