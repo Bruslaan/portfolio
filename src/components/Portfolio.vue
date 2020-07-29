@@ -23,7 +23,7 @@
             />
           </a>
         </div>
-        <div class="md:w-1/2 w-full px-10 flex flex-col justify-between text-left mt-4 md:mt-0">
+        <div class="md:w-1/2 w-full md:px-10 flex flex-col justify-between text-left mt-4 md:mt-0">
           <div>
             <h4 class="text-2xl leading-6 font-medium text-gray-900">Saf'Eat Progressive Web App</h4>
             <div class>
@@ -64,7 +64,7 @@
       <div class="flex border-b my-10 w-full"></div>
       <!-- Paarfit -->
       <div class="mt-20 flex flex-wrap justify-center">
-        <div class="md:w-1/2 w-full px-10 flex flex-col justify-between text-left mt-4 md:mt-0">
+        <div class="md:w-1/2 w-full md:px-10 flex flex-col justify-between text-left mt-4 md:mt-0">
           <div>
             <h4
               class="text-2xl leading-6 font-medium text-gray-900"

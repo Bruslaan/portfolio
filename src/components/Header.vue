@@ -19,7 +19,7 @@
           <div class="rounded-md">
             <a
               href="mailto:noschajew.ruslan@gmail.com"
-              class="w-full flex items-center justify-center px-8 py-3 border text-base leading-6 font-medium rounded-md text-white bg-gray-900 border-white hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+              class="w-full flex items-center justify-center px-3 py-3 border text-base leading-6 font-medium rounded-md text-white bg-gray-900 border-white hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 lg:text-lg lg:px-10"
             >Contact Me</a>
           </div>
           <div class="mt-3 sm:mt-0 sm:ml-3">
