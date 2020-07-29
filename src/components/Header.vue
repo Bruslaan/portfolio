@@ -24,7 +24,7 @@
           </div>
           <div class="mt-3 sm:mt-0 sm:ml-3">
             <a
-              href="CV.pdf"
+              href="LebenslaufRuslan.pdf"
               class="focus:outline-none w-full flex items-center justify-center px-8 py-3 border border-yellow-600 text-base leading-6 font-medium rounded-md text-gray-600 hover:border-yellow-700 focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
               download="CVRuslanNoschajew.pdf"
             >Download Resume</a>
@@ -35,7 +35,7 @@
       <div class="md:w-1/2 mt-10 flex justify-center items-center">
         <img
           class="object-cover rounded-full profileImageSize border border-yellow-700 p-3 transform transition hover:scale-125 duration-200 ease-in"
-          src="../assets/Profiledrawn.jpeg"
+          src="../assets/Profiledrawn2.jpeg"
           alt="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
         />
 

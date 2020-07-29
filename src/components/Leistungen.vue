@@ -25,7 +25,7 @@
           <br/>
           <br/>
           <span>
-            <a href="CV.pdf" class="text-yellow-600 hover:text-yellow-700 " download="CVRuslanNoschajew.pdf">
+            <a href="LebenslaufRuslan.pdf" class="text-yellow-600 hover:text-yellow-700 " download="LebenslaufRuslan.pdf">
               <button>Download CV here</button>
             </a>
           </span>
