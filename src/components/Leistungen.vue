@@ -51,7 +51,7 @@
             />
           </a>
           <transition name="slide-fade">
-            <p v-if="service.show" class="text-gray-900 my-3">{{service.dropDown}}</p>
+            <p v-if="service.show" class="text-gray-900 my-3 text-xl">{{service.dropDown}}</p>
           </transition>
         </div>
       </div>
@@ -104,6 +104,9 @@ export default {
 </script>
 
 <style>
+
+
+
 .slide-fade-enter-active {
   transition: all 0.3s ease-out;
 }

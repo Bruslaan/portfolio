@@ -53,7 +53,7 @@
                 </h1>
                 <h1>
                   Payment:
-                  <span class="text-gray-700">Strapi · PayPal Api</span>
+                  <span class="text-gray-700">Stripe · PayPal Api</span>
                 </h1>
               </div>
             </div>
@@ -101,7 +101,7 @@
                 </h1>
                 <h1>
                   Payment:
-                  <span class="text-gray-700">Strapi</span>
+                  <span class="text-gray-700">Stripe</span>
                 </h1>
               </div>
             </div>

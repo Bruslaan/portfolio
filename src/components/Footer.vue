@@ -1,5 +1,5 @@
 <template>
-  <div class="flex bg-gray-100 justify-between items-center p-3 border-t">
+  <div class="flex bg-gray-100 justify-between items-center p-3 border-t pl-16">
     <span class="text-gray-600 text-sm">Created and designed by Ruslan Noschajew.
 
     </span>

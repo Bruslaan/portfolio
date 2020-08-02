@@ -8,12 +8,18 @@
           class="text-4xl tracking-tight leading-10 font-hairline hairline text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
         >Ruslan Noschajew</h2>
 
-        <span class="text-gray-600 font-hairline text-2xl">Software Developer</span>
+        <span class="text-gray-600 font-hairline text-2xl typing-demo">Software Developer</span>
+
         <p class="text-xl text-gray-600 mt-10">
           I'm a
           <span class="text-gray-600">software engineer</span> based in Germany Munich, specialised in building and
-          <span class="text-gray-600">designing websites, applications</span>, and everything in between.
-          <a class="hover:text-yellow-800 text-yellow-700" href="#leistungen">read more</a>
+          <span
+            class="text-gray-600"
+          >designing websites, applications</span>, and everything in between.
+          <a
+            class="hover:text-yellow-800 text-yellow-700"
+            href="#leistungen"
+          >read more</a>
         </p>
         <div class="mt-5 sm:mt-8 sm:flex justify-center md:justify-end">
           <div class="rounded-md">
@@ -45,20 +51,30 @@
 
       <!-- <SpeechBuble/> -->
     </div>
+
+    <div class="absolute bottom-0 centerMouse hidden md:block">
+      <MouseScrollAnim  />
+    </div>
   </div>
 </template>
 
 <script>
 import SpeechBuble from "./SpeechBuble.vue";
+import MouseScrollAnim from "./MouseScrollAnimation.vue";
 // import SocialMediaButtons from './SocialMediaButtons.vue'
 export default {
   components: {
-    SpeechBuble
+    SpeechBuble,
+    MouseScrollAnim
   }
 };
 </script>
 
 <style scoped>
+
+.centerMouse{
+right:50%
+}
 .screen {
   height: 50rem;
 }

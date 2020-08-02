@@ -1,11 +1,11 @@
 <template>
   <!-- <h1 class="text-3xl text-red-900">Hallo World</h1> -->
-  <!-- <NavBar /> -->
+  <NavBar />
   <!-- <SocialButtons /> -->
-  <Header id="header" class />
+  <Header id="header" class="ml-12" />
   <!-- <AboutMe id="aboutme" /> -->
-  <Leistungen id="leistungen" />
-  <Portfolio id="portfolio" />
+  <Leistungen id="leistungen" class="ml-12" />
+  <Portfolio id="portfolio"  class="ml-12"/>
   <Footer />
 </template>
 
@@ -25,8 +25,7 @@ export default {
     Leistungen,
     Portfolio,
     Footer,
-    AboutMe,
-    
+    AboutMe
   }
 };
 </script>
