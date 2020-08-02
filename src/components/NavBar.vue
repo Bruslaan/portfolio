@@ -7,7 +7,7 @@
       <div class="bottom">
         <a class="mr-4" target="_blank" href="https://www.facebook.com/bruslan">FACEBOOK</a>
         <a class="mr-4" target="_blank"  href="https://www.linkedin.com/in/ruslan-noschajew-6228a3196/" >LINKED IN</a>
-        <a class="mr-4" target="_blank"  href="mailto:hello@volkerotto.net">EMAIL ME</a>
+        <a class="mr-4" target="_blank"  href="mailto:noschajew.ruslan@gmail.com">EMAIL ME</a>
       </div>
     </div>
   </nav>
