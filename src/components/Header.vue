@@ -59,12 +59,12 @@
 </template>
 
 <script>
-import SpeechBuble from "./SpeechBuble.vue";
+
 import MouseScrollAnim from "./MouseScrollAnimation.vue";
 // import SocialMediaButtons from './SocialMediaButtons.vue'
 export default {
   components: {
-    SpeechBuble,
+    
     MouseScrollAnim
   }
 };
