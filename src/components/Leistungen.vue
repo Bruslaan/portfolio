@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto max-w-4xl mt-20" >
+  <div class="md:mx-auto max-w-4xl mt-20" >
     <div class="flex flex-wrap justify-center mb-10">
       <div class="md:w-1/3 w-full px-10">
         <h1 class="text-gray-900 text-3xl">About Me</h1>
