@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex flex-wrap-reverse justify-center items-center screen border-b"
+      class="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex flex-wrap-reverse justify-center items-center screen border-b"
     >
       <div class="text-center md:text-right md:w-1/2">
         <h2
@@ -31,7 +31,7 @@
           <div class="mt-3 sm:mt-0 sm:ml-3">
             <a
               href="LebenslaufRuslan.pdf"
-              class="focus:outline-none w-full flex items-center justify-center px-8 py-3 border border-yellow-600 text-base leading-6 font-medium rounded-md text-gray-600 hover:border-yellow-700 focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+              class="hover:bg-yellow-600 hover:text-white focus:outline-none w-full flex items-center justify-center px-8 py-3 border border-yellow-600 text-base leading-6 font-medium rounded-md text-gray-600 hover:border-yellow-600 focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
               download="CVRuslanNoschajew.pdf"
             >Download Resume</a>
           </div>
@@ -44,36 +44,29 @@
           src="../assets/Profiledrawn2.jpeg"
           alt="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
         />
-
         <!-- https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80 -->
         <!-- https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80 -->
       </div>
 
       <!-- <SpeechBuble/> -->
-    </div>
-
-    <div class="absolute bottom-0 centerMouse hidden md:block">
-      <MouseScrollAnim  />
+      <div class="absolute bottom-0 centerMouse hidden md:block">
+        <MouseScrollAnim />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-
-import MouseScrollAnim from "./MouseScrollAnimation.vue";
 // import SocialMediaButtons from './SocialMediaButtons.vue'
+import MouseScrollAnim from "./MouseScrollAnimation.vue";
 export default {
-  components: {
-    
-    MouseScrollAnim
-  }
+  components: { MouseScrollAnim }
 };
 </script>
 
 <style scoped>
-
-.centerMouse{
-right:50%
+.centerMouse {
+  right: 50%;
 }
 .screen {
   height: 50rem;

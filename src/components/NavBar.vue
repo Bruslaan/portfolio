@@ -1,13 +1,13 @@
 <template>
   <nav class="side">
-    <div class="side__inner border-r border-dashed">
+    <div class="side__inner border-r border-dashed border-gray-700">
       <div class="top">
-        <a href="#">Bruslan</a>
+        <a  class="hover:text-yellow-700" href="#">Bruslan</a>
       </div>
       <div class="bottom">
-        <a class="mr-4" target="_blank" href="https://www.facebook.com/bruslan">FACEBOOK</a>
-        <a class="mr-4" target="_blank"  href="https://www.linkedin.com/in/ruslan-noschajew-6228a3196/" >LINKED IN</a>
-        <a class="mr-4" target="_blank"  href="mailto:noschajew.ruslan@gmail.com">EMAIL ME</a>
+        <a class="mr-4 hover:text-yellow-700" target="_blank" href="https://www.facebook.com/bruslan">FACEBOOK</a>
+        <a class="mr-4 hover:text-yellow-700" target="_blank"  href="https://www.linkedin.com/in/ruslan-noschajew-6228a3196/" >LINKED IN</a>
+        <a class="mr-4 hover:text-yellow-700" target="_blank"  href="mailto:noschajew.ruslan@gmail.com">EMAIL ME</a>
       </div>
     </div>
   </nav>
@@ -26,7 +26,7 @@ export default {};
   bottom: 0;
   z-index: 1000;
   width: 50px;
-  border-right: 1px dashed rgba(black, 0.3);
+  /* border-right: 1px dashed rgba(black, 0.3); */
   color: rgba(black, 0.5);
 
   text-transform: uppercase;

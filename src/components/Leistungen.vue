@@ -71,7 +71,7 @@ export default {
     return {
       services: [
         {
-          name: "Web Dev",
+          name: "Web development",
           show: false,
           dropDown:
             "JavaScript · VueJs · React ·  NodeJs · Express · Flutter  · Tailwind · Linux · Docker · GIT · Strapi · Python"
@@ -82,13 +82,13 @@ export default {
           dropDown: "Swift · Flutter"
         },
         {
-          name: "Cloud Dev",
+          name: "Cloud development",
           show: false,
           dropDown:
             "Kubernetes · OpenShift · Linux · Terraform · GO Lang · Kubernetes Operator"
         },
         {
-          name: "Game Dev",
+          name: "Game development",
           show: false,
           dropDown: "Unity 3D · C# · Blender"
         },

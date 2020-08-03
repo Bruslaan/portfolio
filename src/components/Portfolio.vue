@@ -30,7 +30,7 @@
               <p class="mt-5 text-xl text-gray-600">
                 I'm the CEO of SafEat UG. Safeat is a progressive web app that digitizes the traditional ordering and payment process in restarants.
                 <br />In this project I am responsible for the Front end and Back end programming.
-                The aim was to create a native app like feel without having to download it from the app store. Therefore the whole projekt was realized as a progressive web app in Vue Js.
+                The project is realized as a progressive web app in Vue Js.
               </p>
 
               <br />
@@ -74,8 +74,12 @@
                 Paarfit finally brings fitness for couples into the living room.
                 <br />
                 <br />In this project I am responsible for the Front end and Back end programming.
+                <br>
+                
               </p>
+
               <br />
+              <div class="px-1 py-1 rounded-full bg-orange-500 text-white text-center shadow"> In closed beta</div>
 
               <br />
               <p class="mt-5 text-xl text-gray-600">Created: 10.03.2020</p>
